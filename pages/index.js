@@ -10,8 +10,10 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Layout>
-        <h2 className="text-3xl font-bold mb-4">Welcome to WITTEL</h2>
-        <p className="text-lg">Premium kwaliteit, zonder het label.</p>
+        <section className="max-w-4xl mx-auto text-center py-16">
+          <h2 className="text-5xl font-display font-bold mb-4">Welcome to WITTEL</h2>
+          <p className="text-xl font-body text-gray-600">Premium kwaliteit, zonder het label.</p>
+        </section>
       </Layout>
     </>
   );

@@ -1,15 +1,17 @@
 export default function Header() {
   return (
-    <header className="bg-black text-white p-4">
-      <h1 className="text-2xl font-bold text-yellow-400">WITTEL</h1>
-      <nav className="flex gap-4 mt-2">
-        <a href="/" className="hover:text-yellow-400">Sale</a>
-        <a href="/heren" className="hover:text-yellow-400">Heren</a>
-        <a href="/dames" className="hover:text-yellow-400">Dames</a>
-        <a href="/kinderen" className="hover:text-yellow-400">Kinderen</a>
-        <a href="/schoenen" className="hover:text-yellow-400">Schoenen</a>
-        <a href="/accessoires" className="hover:text-yellow-400">Accessoires</a>
-      </nav>
+    <header className="bg-brand-black text-white p-6 shadow-lg">
+      <div className="max-w-7xl mx-auto flex items-center justify-between">
+        <h1 className="text-3xl font-display font-bold text-brand-gold">WITTEL</h1>
+        <nav className="flex gap-6 font-body">
+          <a href="/" className="hover:text-brand-gold transition">Sale</a>
+          <a href="/heren" className="hover:text-brand-gold transition">Heren</a>
+          <a href="/dames" className="hover:text-brand-gold transition">Dames</a>
+          <a href="/kinderen" className="hover:text-brand-gold transition">Kinderen</a>
+          <a href="/schoenen" className="hover:text-brand-gold transition">Schoenen</a>
+          <a href="/accessoires" className="hover:text-brand-gold transition">Accessoires</a>
+        </nav>
+      </div>
     </header>
   );
 }
